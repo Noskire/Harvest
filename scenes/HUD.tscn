@@ -1,0 +1,275 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/hud_theme.tres" type="Theme" id=1]
+
+[node name="HUD" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource( 1 )
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+margin_right = 625.0
+margin_bottom = 300.0
+
+[node name="Panel" type="Panel" parent="PanelContainer"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 617.0
+margin_bottom = 292.0
+rect_min_size = Vector2( 525, 280 )
+
+[node name="GridContainer" type="GridContainer" parent="PanelContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/vseparation = 20
+custom_constants/hseparation = 10
+columns = 7
+
+[node name="Terrain1" type="RichTextLabel" parent="PanelContainer/Panel/GridContainer"]
+margin_right = 125.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 125, 35 )
+bbcode_enabled = true
+bbcode_text = "[u]Grassland[/u]	"
+text = "Grassland	"
+
+[node name="Type1" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 135.0
+margin_right = 243.0
+margin_bottom = 36.0
+text = "Cherry:"
+
+[node name="Qtd1" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 253.0
+margin_right = 266.0
+margin_bottom = 36.0
+text = "0"
+
+[node name="Type2" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 276.0
+margin_right = 386.0
+margin_bottom = 36.0
+text = "Daisy:"
+
+[node name="Qtd2" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 396.0
+margin_right = 409.0
+margin_bottom = 36.0
+text = "0"
+
+[node name="Type3" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 419.0
+margin_right = 543.0
+margin_bottom = 36.0
+text = "Blewit:"
+
+[node name="Qtd3" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 553.0
+margin_right = 566.0
+margin_bottom = 36.0
+text = "0"
+
+[node name="Terrain2" type="RichTextLabel" parent="PanelContainer/Panel/GridContainer"]
+margin_top = 56.0
+margin_right = 125.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 125, 35 )
+bbcode_enabled = true
+bbcode_text = "[u]Forest[/u]	"
+text = "Forest	"
+
+[node name="Type4" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 135.0
+margin_top = 56.0
+margin_right = 243.0
+margin_bottom = 92.0
+text = "Blackberry:"
+
+[node name="Qtd4" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 253.0
+margin_top = 56.0
+margin_right = 266.0
+margin_bottom = 92.0
+text = "0"
+
+[node name="Type5" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 276.0
+margin_top = 56.0
+margin_right = 386.0
+margin_bottom = 92.0
+text = "Lily:"
+
+[node name="Qtd5" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 396.0
+margin_top = 56.0
+margin_right = 409.0
+margin_bottom = 92.0
+text = "0"
+
+[node name="Type6" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 419.0
+margin_top = 56.0
+margin_right = 543.0
+margin_bottom = 92.0
+text = "Brown Birch:"
+
+[node name="Qtd6" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 553.0
+margin_top = 56.0
+margin_right = 566.0
+margin_bottom = 92.0
+text = "0"
+
+[node name="Terrain3" type="RichTextLabel" parent="PanelContainer/Panel/GridContainer"]
+margin_top = 112.0
+margin_right = 125.0
+margin_bottom = 148.0
+rect_min_size = Vector2( 125, 35 )
+bbcode_enabled = true
+bbcode_text = "[u]Snowy[/u]	"
+text = "Snowy	"
+
+[node name="Type7" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 135.0
+margin_top = 112.0
+margin_right = 243.0
+margin_bottom = 148.0
+text = "Apple:"
+
+[node name="Qtd7" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 253.0
+margin_top = 112.0
+margin_right = 266.0
+margin_bottom = 148.0
+text = "0"
+
+[node name="Type8" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 276.0
+margin_top = 112.0
+margin_right = 386.0
+margin_bottom = 148.0
+text = "Snowdrop:"
+
+[node name="Qtd8" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 396.0
+margin_top = 112.0
+margin_right = 409.0
+margin_bottom = 148.0
+text = "0"
+
+[node name="Type9" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 419.0
+margin_top = 112.0
+margin_right = 543.0
+margin_bottom = 148.0
+text = "Oyster:"
+
+[node name="Qtd9" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 553.0
+margin_top = 112.0
+margin_right = 566.0
+margin_bottom = 148.0
+text = "0"
+
+[node name="Terrain4" type="RichTextLabel" parent="PanelContainer/Panel/GridContainer"]
+margin_top = 168.0
+margin_right = 125.0
+margin_bottom = 204.0
+rect_min_size = Vector2( 125, 35 )
+bbcode_enabled = true
+bbcode_text = "[u]Rocky[/u]	"
+text = "Rocky	"
+
+[node name="Type10" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 135.0
+margin_top = 168.0
+margin_right = 243.0
+margin_bottom = 204.0
+text = "Egg:"
+
+[node name="Qtd10" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 253.0
+margin_top = 168.0
+margin_right = 266.0
+margin_bottom = 204.0
+text = "0"
+
+[node name="Type11" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 276.0
+margin_top = 168.0
+margin_right = 386.0
+margin_bottom = 204.0
+text = "Belladonna:"
+
+[node name="Qtd11" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 396.0
+margin_top = 168.0
+margin_right = 409.0
+margin_bottom = 204.0
+text = "0"
+
+[node name="Type12" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 419.0
+margin_top = 168.0
+margin_right = 543.0
+margin_bottom = 204.0
+text = "Aloe Vera:"
+
+[node name="Qtd12" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 553.0
+margin_top = 168.0
+margin_right = 566.0
+margin_bottom = 204.0
+text = "0"
+
+[node name="Terrain5" type="RichTextLabel" parent="PanelContainer/Panel/GridContainer"]
+margin_top = 224.0
+margin_right = 125.0
+margin_bottom = 260.0
+rect_min_size = Vector2( 125, 35 )
+bbcode_enabled = true
+bbcode_text = "[u]Heated[/u]	"
+text = "Heated	"
+
+[node name="Type13" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 135.0
+margin_top = 224.0
+margin_right = 243.0
+margin_bottom = 260.0
+text = "Blueberry:"
+
+[node name="Qtd13" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 253.0
+margin_top = 224.0
+margin_right = 266.0
+margin_bottom = 260.0
+text = "0"
+
+[node name="Type14" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 276.0
+margin_top = 224.0
+margin_right = 386.0
+margin_bottom = 260.0
+text = "Marigold:"
+
+[node name="Qtd14" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 396.0
+margin_top = 224.0
+margin_right = 409.0
+margin_bottom = 260.0
+text = "0"
+
+[node name="Type15" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 419.0
+margin_top = 224.0
+margin_right = 543.0
+margin_bottom = 260.0
+text = "Shitake:"
+
+[node name="Qtd15" type="Label" parent="PanelContainer/Panel/GridContainer"]
+margin_left = 553.0
+margin_top = 224.0
+margin_right = 566.0
+margin_bottom = 260.0
+text = "0"
